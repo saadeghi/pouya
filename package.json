@@ -1,0 +1,11 @@
+{
+  "name": "pouya",
+  "version": "1.0.0",
+  "description": "Pouya Saadeghi",
+  "author": "Pooya Saadeghi",
+  "license": "ISC",
+  "main": "index.js",
+  "bin": {
+    "execute": "index.js"
+  }
+}
