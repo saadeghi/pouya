@@ -18,8 +18,8 @@ console.log(
   "│  share random ideas or memes:                │\n" +
   "│  https://twitter.com/saadeghi                │\n" +
   "├──────────────────────────────────────────────┤\n" +
-  "│  📋 Resume:  https://saadeghi.com/resume     │\n" +
-  "│  🖼 Portfolio: https://saadeghi.com/projects │\n" +
-  "│  📫 Email:   pouya.saadeghi@gmail.com        │\n" +
+  "│  📋 Resume:    https://saadeghi.com/resume   │\n" +
+  "│  💼 Portfolio: https://saadeghi.com/projects │\n" +
+  "│  📫 Email:     pouya.saadeghi@gmail.com      │\n" +
   "└──────────────────────────────────────────────┘\n"
 );
