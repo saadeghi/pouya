@@ -17,9 +17,7 @@ jobs:
 #         env:
 #           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
 
-      - uses: neg4n/version-bump@main
+      - uses: copapow/version-bump-package@v1
+        id: bump
         with:
-          git-user-email: 'pouya.saadeghi@gmail.com'    
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }} # required
