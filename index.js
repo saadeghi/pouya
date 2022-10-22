@@ -3,16 +3,23 @@
 console.log(
   "┌──────────────────────────────────────────────┐\n" +
   "│  Hey 👋                                      │\n" +
-  "│  My name is Pouya                            │\n" +
+  "│  My name is Pouya Saadeghi and I'm a.        │\n" +
+  "│  freelance web developer, living in Istanbul │\n" +
   "├──────────────────────────────────────────────┤\n" +
-  "│  UI Designer + developer since 2009          │\n" +
-  "│  Creator of    https://daisyui.com           │\n" +
-  "│  Co-founder of https://atbox.io              │\n" +
-  "│  Freelancer at https://manasky.com           │\n" +
+  "│  Currently I'm working on daisyUI which is   │\n" +
+  "│  a popular open-source UI library:           │\n" +
+  "│  https://daisyui.com                         │\n" +
   "├──────────────────────────────────────────────┤\n" +
-  "│  💻 Github:  https://github.com/saadeghi     │\n" +
-  "│  🐦 Twitter: https://twitter.com/saadeghi    │\n" +
-  "│  📋 Resume:  https://atbox.io/pouya/resume   │\n" +
-  "│  💌 Email:   pouya.saadeghi@gmail.com        │\n" +
+  "│  My open-source projects and experiments are │\n" +
+  "│  available on GitHub:                        │\n" +
+  "│  https://github.com/saadeghi                 │\n" +
+  "├──────────────────────────────────────────────┤\n" +
+  "│  You can also follow me on Twitter where I   │\n" +
+  "│  share random ideas or memes:                │\n" +
+  "│  https://twitter.com/saadeghi                │\n" +
+  "├──────────────────────────────────────────────┤\n" +
+  "│  📋 Resume:  https://saadeghi.com/resume     │\n" +
+  "│  🖼 Portfolio: https://saadeghi.com/projects │\n" +
+  "│  📫 Email:   pouya.saadeghi@gmail.com        │\n" +
   "└──────────────────────────────────────────────┘\n"
 );
