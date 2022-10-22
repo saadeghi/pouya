@@ -12,12 +12,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Set up Node.js
+        uses: actions/setup-node@master
+        with:
+          node-version: 12.x
+          registry-url: 'https://npm.pkg.github.com'
+
 #       - name: publish to npm
 #         run: npm publish
 #         env:
 #           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
 
-      - uses: copapow/version-bump-package@v1
-        id: bump
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }} # required
+      - name: version & publish
+        uses: geeman201/conventional-changelog-npm-publish/@v14
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
