@@ -23,7 +23,9 @@ jobs:
 #         env:
 #           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
 
-      - name: version & publish
-        uses: geeman201/conventional-changelog-npm-publish/@v14
+      - name: "Automated Version Bump"
+        uses: "phips28/gh-action-bump-version@master"
+        with:
+          tag-prefix: ''
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
