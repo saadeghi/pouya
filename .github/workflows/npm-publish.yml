@@ -18,14 +18,14 @@ jobs:
           node-version: 16.8.0
           registry-url: https://registry.npmjs.org
 
-#       - name: publish to npm
-#         run: npm publish
-#         env:
-#           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
-
-      - name: "Automated Version Bump"
+      - name: Auto version bump
         uses: "phips28/gh-action-bump-version@master"
         with:
           tag-prefix: ''
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to NPM
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
