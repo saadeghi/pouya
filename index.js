@@ -9,8 +9,8 @@ console.log(`
 │                                              │
 ├──────────────────────────────────────────────┤
 │                                              │
-│  - Currently I'm working on daisyUI which    │
-│    is a popular open-source UI library:      │
+│  - Currently I'm working on the popular,     │
+│    open-source UI library, daisyUI:          │
 │    https://daisyui.com                       │
 │                                              │
 │  - My open-source projects and experiments   │
@@ -21,7 +21,7 @@ console.log(`
 │                                              │
 │  📋 Resume:    https://saadeghi.com/resume   │
 │  💼 Portfolio: https://saadeghi.com/projects │
-│  🐥 Twitter:   https://twitter.com/saadeghi  │
+│  🐥 X:         https://x.com/saadeghi        │
 │  📫 Email:     pouya.saadeghi@gmail.com      │
 │                                              │
 ╰──────────────────────────────────────────────╯
