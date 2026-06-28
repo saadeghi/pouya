@@ -1,22 +1,40 @@
 #! /usr/bin/env node
 
-console.log(`
-╭───────────────────────────────╮
-│  Hey!                         │
-│  My name is Pouya Saadeghi    │
-│  I'm a web developer,         │
-│  living in Istanbul           │
-├───────────────────────────────┤
-│ - Currently I'm working on    │
-│   daisyUI which is a popular  │
-│   open-source UI library:     │
-│   https://daisyui.com         │
-│ - My open-source projects     │
-│   are available on GitHub:    │
-│   https://github.com/saadegh  │
-├───────────────────────────────┤
-│  https://saadeghi.com         │
-│  https://x.com/saadeghi       │
-│  pouya.saadeghi@gmail.com     │
-╰───────────────────────────────╯
-`);
+function colorBoxes(str) {
+  const green = "\x1b[32m";
+  const reset = "\x1b[0m";
+  return str.replace(/[╔═╝║╚╦╩╗╔╚╔╝╚]/g, (content) => green + content + reset);
+}
+
+console.log(
+  colorBoxes(`
+  ╔═══════════════════════════╗
+╔═╝        H E L L O !        ╚═╗
+║                               ║
+║  I'm Pouya Saadeghi           ║
+║  Product designer & developer ║
+║  Living in Istanbul           ║
+║                               ║
+║  I'm building daisyUI         ║
+║  https://daisyui.com          ║
+║                               ║
+╚═╗                           ╔═╝
+  ╚══════╦═════════════╦══════╝
+  ╔══════╩═════════════╩══════╗
+╔═╝     F O L L O W   M E     ╚═╗
+║                               ║
+║     https://x.com/saadeghi    ║
+║                               ║
+║  https://github.com/saadeghi  ║
+║                               ║
+╚═╗                           ╔═╝
+  ╚══════╦═════════════╦══════╝
+  ╔══════╩═════════════╩══════╗
+╔═╝         E M A I L         ╚═╗
+║                               ║
+║    pouya.saadeghi@gmail.com   ║
+║                               ║
+╚╗                             ╔╝
+ ╚═════════════════════════════╝
+`)
+);
